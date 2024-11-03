@@ -74,12 +74,13 @@ p {
     flex-direction: column; /* Arrange children in a column */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically if needed */
-    text-align: center; /* Center text within the container */
+     /* Center text within the container */
 }
 
 .profile-photo {
     max-width: 200px; /* Set a maximum width for the photo */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Space between photo and text */
+    margin-bottom: 20px;
+    border-radius: 50%;/* Space between photo and text */
     
 }
