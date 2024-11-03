@@ -67,3 +67,17 @@ p {
     line-height: 1.6;
     margin-bottom: 1rem;
 }
+
+/* New styles for centering the profile photo */
+.about-container {
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center items horizontally */
+}
+
+.profile-photo {
+    max-width: 150px; /* Set a maximum width for the photo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between photo and text */
+    border-radius: 50%; /* Optional: make the photo circular */
+}
