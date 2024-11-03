@@ -81,3 +81,8 @@ p {
     margin-bottom: 20px; /* Space between photo and text */
     border-radius: 50%; /* Optional: make the photo circular */
 }
+
+/* Ensures text aligns properly under the image */
+.about-text {
+    text-align: center; /* Center the text */
+}
