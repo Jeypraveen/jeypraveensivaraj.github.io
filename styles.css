@@ -68,11 +68,13 @@ p {
     margin-bottom: 1rem;
 }
 
-/* New styles for centering the profile photo */
+/* Updated styles for centering the profile photo */
 .about-container {
     display: flex; /* Use Flexbox for layout */
     flex-direction: column; /* Arrange children in a column */
     align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically if needed */
+    text-align: center; /* Center text within the container */
 }
 
 .profile-photo {
@@ -80,9 +82,4 @@ p {
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Space between photo and text */
     border-radius: 50%; /* Optional: make the photo circular */
-}
-
-/* Ensures text aligns properly under the image */
-.about-text {
-    text-align: center; /* Center the text */
 }
