@@ -110,3 +110,34 @@ footer {
     position: relative;
     margin-top: 20px; /* Space above footer */
 }
+.skills-section {
+    margin-bottom: 20px; /* Space below the skills section */
+    padding: 1rem; /* Padding for better spacing */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for sections */
+}
+
+.skills-section h2 {
+    margin-top: 0; /* Remove margin top for the main heading */
+}
+
+.skills-section ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.skills-section li {
+    margin-bottom: 10px; /* Space between list items */
+    padding: 10px; /* Padding for better spacing */
+    border-bottom: 1px solid #eee; /* Light border below each item */
+}
+
+.skills-section li:last-child {
+    border-bottom: none; /* Remove border from the last item */
+}
+
+.skills-section h3 {
+    margin-top: 20px; /* Space above subheadings */
+}
