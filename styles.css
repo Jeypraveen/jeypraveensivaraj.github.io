@@ -76,7 +76,7 @@ p {
 }
 
 .profile-photo {
-    max-width: 150px; /* Set a maximum width for the photo */
+    max-width: 200px; /* Set a maximum width for the photo */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Space between photo and text */
     border-radius: 50%; /* Optional: make the photo circular */
