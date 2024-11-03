@@ -71,16 +71,42 @@ p {
 /* Updated styles for centering the profile photo */
 .about-container {
     display: flex; /* Use Flexbox for layout */
-    flex-direction: column; /* Arrange children in a column */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically if needed */
-     /* Center text within the container */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below the about container */
 }
 
 .profile-photo {
     max-width: 200px; /* Set a maximum width for the photo */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px;
-    border-radius: 50%;/* Space between photo and text */
-    
+    margin-right: 20px; /* Space between photo and text */
+    border-radius: 50%; /* Circular profile photo */
+}
+
+/* Additional styling for lists */
+ul {
+    padding-left: 20px; /* Indent list items */
+    margin-bottom: 1rem; /* Space below lists */
+}
+
+ul li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Styling for project and experience sections */
+.project, .experience {
+    margin-bottom: 20px; /* Space between projects/experiences */
+    padding: 1rem; /* Padding for better spacing */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for sections */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #35424a;
+    color: #ffffff;
+    position: relative;
+    margin-top: 20px; /* Space above footer */
 }
