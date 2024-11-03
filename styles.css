@@ -1,41 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jey Praveen Sivaraj Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Centering styles */
-        .profile-photo {
-            text-align: center; /* Optionally use flex or margin auto */
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
 
-        .profile-photo img {
-            max-width: 100%; /* Responsive image */
-            height: auto; /* Maintain aspect ratio */
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Jey Praveen Sivaraj</h1>
-        <p>AI & ML Student</p>
-    </header>
-    
-    <section id="about">
-        <div class="profile-photo">
-            <img src="path/to/your/photo.jpg" alt="Jey Praveen Sivaraj" />
-        </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <p>Email: <a href="mailto:jeypraveen@gmail.com">jeypraveen@gmail.com</a></p>
-        <p>Phone: <a href="tel:+919443767289">+91-9443767289</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/jey-praveen-sivaraj" target="_blank">jey-praveen-sivaraj</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/jeypraveen_15" target="_blank">jeypraveen_15</a></p>
-        <p>GitHub: <a href="https://github.com/Jeypraveen" target="_blank">Jeypraveen</a></p>
-    </section>
-</body>
-</html>
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #35424a;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #f4f4f9;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
