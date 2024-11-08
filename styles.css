@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f4f4f9;
 }
 
+/* Header styling */
 header {
     background-color: #35424a;
     color: #ffffff;
@@ -17,6 +19,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
+/* Navigation bar styling */
 nav {
     background-color: #444;
 }
@@ -46,6 +49,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* Section styling */
 section {
     padding: 2rem;
     max-width: 800px;
@@ -68,48 +72,51 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Updated styles for centering the profile photo */
+/* About section styling */
 .about-container {
-    display: flex; /* Use Flexbox for layout */
-    align-items: center; /* Center items vertically */
-    margin-bottom: 20px; /* Space below the about container */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .profile-photo {
     width: 150px;
+    height: 150px;
     border-radius: 50%;
+    object-fit: cover; /* Ensures the photo fits within the circle */
     margin-right: 2rem;
 }
-    .profile-photo {
-        margin: 0 0 1rem 0;
-    }
 
-
-/* Additional styling for lists */
+/* List styling for skills */
 ul {
-    padding-left: 20px; /* Indent list items */
-    margin-bottom: 1rem; /* Space below lists */
+    padding-left: 20px;
+    margin-bottom: 1rem;
 }
 
 ul li {
-    margin-bottom: 0.5rem; /* Space between list items */
+    margin-bottom: 0.5rem;
 }
 
-/* Styling for project and experience sections */
+/* Project, experience, and skills section styling */
 .project, .experience, .skills-section {
-    margin-bottom: 20px; /* Space between projects/experiences */
-    padding: 1rem; /* Padding for better spacing */
-    border: 1px solid #ddd; /* Light border for separation */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #f9f9f9; /* Light background for sections */
+    margin-bottom: 20px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
-/* Footer styles */
+.project h3, .experience h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Footer styling */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #35424a;
     color: #ffffff;
     position: relative;
-    margin-top: 20px; /* Space above footer */
+    margin-top: 20px;
 }
