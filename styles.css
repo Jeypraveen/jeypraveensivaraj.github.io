@@ -75,17 +75,12 @@ p {
 /* Updated styles for centering the profile photo at the top */
 .about-container {
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center-align text */
-    padding: 2rem;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    margin: 20px auto;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;   
+
 }
+
 
 /* Profile photo styling at the top center */
 .profile-photo {
