@@ -73,13 +73,14 @@ p {
 }
 
 /* Updated styles for centering the profile photo at the top */
+/* Update for about-container to stack photo at the top */
 .about-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack vertically */
+    align-items: center; /* Center horizontally */
     margin-bottom: 20px;   
-
 }
+
 
 
 /* Profile photo styling at the top center */
