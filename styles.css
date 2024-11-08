@@ -1,17 +1,15 @@
-/* General body styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
 }
 
-/* Header styling */
 header {
     background-color: #35424a;
     color: #ffffff;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1.5rem;
 }
 
 header h1 {
@@ -19,10 +17,8 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Navigation bar styling */
 nav {
     background-color: #444;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -34,29 +30,28 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem;
     display: block;
     transition: background-color 0.3s, color 0.3s;
-    border-radius: 5px;
 }
 
 nav ul li a:hover {
     background-color: #666;
+    border-radius: 5px;
 }
 
-/* Section styling */
 section {
     padding: 2rem;
     max-width: 800px;
     margin: 20px auto;
     background: #ffffff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
@@ -73,103 +68,45 @@ p {
     margin-bottom: 1rem;
 }
 
-/* About section styling */
+/* Updated styles for centering the profile photo */
 .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    text-align: center;
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below the about container */
 }
 
 .profile-photo {
     width: 150px;
-    height: 150px;
     border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
+    margin-right: 2rem;
 }
+    
 
-/* List styling for skills */
+/* Additional styling for lists */
 ul {
-    padding-left: 20px;
-    margin-bottom: 1rem;
+    padding-left: 20px; /* Indent list items */
+    margin-bottom: 1rem; /* Space below lists */
 }
 
 ul li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem; /* Space between list items */
 }
 
-/* Project, experience, and skills section styling */
+/* Styling for project and experience sections */
 .project, .experience, .skills-section {
-    margin-bottom: 20px;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    margin-bottom: 20px; /* Space between projects/experiences */
+    padding: 1rem; /* Padding for better spacing */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for sections */
 }
 
-.project h3, .experience h3 {
-    color: #333;
-    margin-top: 0;
-}
-
-/* Footer styling */
+/* Footer styles */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #35424a;
     color: #ffffff;
     position: relative;
-    margin-top: 20px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-
-    section {
-        padding: 1.5rem;
-    }
-
-    .profile-photo {
-        width: 120px;
-        height: 120px;
-    }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 1rem;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
-
-    nav ul li a {
-        padding: 0.5rem;
-    }
-
-    section {
-        padding: 1rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
+    margin-top: 20px; /* Space above footer */
 }
