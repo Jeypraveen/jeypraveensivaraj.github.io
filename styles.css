@@ -137,3 +137,34 @@ footer {
         max-width: 100px;
     }
 }
+/* Style the navigation links */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    padding: 20px;
+}
+
+/* Style each button */
+.nav-button {
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.nav-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/* Focus effect for accessibility */
+.nav-button:focus {
+    outline: 2px solid #ffcc00;
+}
+
