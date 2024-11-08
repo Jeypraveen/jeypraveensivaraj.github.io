@@ -71,16 +71,16 @@ p {
 /* Updated styles for centering the profile photo */
 .about-container {
     display: flex; /* Use Flexbox for layout */
-    align-items: center; /* Center items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
     margin-bottom: 20px; /* Space below the about container */
 }
 
 .profile-photo {
-    width: 150px;
-    border-radius: 50%;
-    margin-right: 2rem;
+    width: 150px; /* Set width of the photo */
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 1rem; /* Space below the photo */
 }
-    
 
 /* Additional styling for lists */
 ul {
