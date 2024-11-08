@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f4f4f9;
 }
 
+/* Header styling */
 header {
     background-color: #35424a;
     color: #ffffff;
@@ -17,6 +19,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
+/* Navigation bar styling */
 nav {
     background-color: #444;
 }
@@ -46,6 +49,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* Section styling */
 section {
     padding: 2rem;
     max-width: 800px;
@@ -77,8 +81,10 @@ p {
 }
 
 .profile-photo {
-    width: 150px; /* Set width of the photo */
+    width: 150px; /* Desired width */
+    height: 150px; /* Desired height */
     border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensures the image covers the container */
     margin-bottom: 1rem; /* Space below the photo */
 }
 
@@ -101,7 +107,7 @@ ul li {
     background-color: #f9f9f9; /* Light background for sections */
 }
 
-/* Footer styles */
+/* Footer styling */
 footer {
     text-align: center;
     padding: 1rem;
@@ -109,4 +115,19 @@ footer {
     color: #ffffff;
     position: relative;
     margin-top: 20px; /* Space above footer */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 120px; /* Smaller width for tablets */
+        height: 120px; /* Smaller height for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-photo {
+        width: 100px; /* Even smaller width for mobile */
+        height: 100px; /* Even smaller height for mobile */
+    }
 }
