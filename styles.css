@@ -1,59 +1,78 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background: #f4f4f4;
+    background-color: #f4f4f9;
 }
 
 header {
+    background-color: #35424a;
+    color: #ffffff;
     text-align: center;
-    background: #1e1e1e;
-    color: #fff;
-    padding: 1.5rem 0;
+    padding: 1.5rem;
 }
 
-h1 {
-    font-size: 2.5rem;
+header h1 {
     margin: 0;
+    font-size: 2.5rem;
 }
 
 nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    background: #333;
-    padding: 1rem;
+    margin: 0;
 }
 
-nav a {
-    color: #fff;
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-nav a:hover {
-    color: #f4f4f4;
+nav ul li a:hover {
+    background-color: #666;
+    border-radius: 5px;
 }
 
-/* About Section */
-#about {
+section {
     padding: 2rem;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
+h2 {
+    color: #35424a;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #f4f4f9;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Updated styles for centering the profile photo */
 .about-container {
-    max-width: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below the about container */
 }
 
 .profile-photo {
@@ -61,50 +80,36 @@ nav a:hover {
     border-radius: 50%;
     margin-right: 2rem;
 }
-
-.about-text {
-    max-width: 600px;
-}
-
-/* Skills and Projects Sections */
-#skills, #projects {
-    padding: 2rem;
-    background: #e9ecef;
-}
-
-.skills-section, .project {
-    margin-bottom: 1.5rem;
-}
-
-.project h3 {
-    color: #333;
-    font-weight: bold;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
     .profile-photo {
         margin: 0 0 1rem 0;
     }
 
-    nav {
-        flex-direction: column;
-        padding: 1rem;
-    }
+
+/* Additional styling for lists */
+ul {
+    padding-left: 20px; /* Indent list items */
+    margin-bottom: 1rem; /* Space below lists */
 }
 
-@media (min-width: 769px) {
-    .about-container {
-        flex-direction: row;
-    }
+ul li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
 
-    nav {
-        flex-direction: row;
-    }
+/* Styling for project and experience sections */
+.project, .experience, .skills-section {
+    margin-bottom: 20px; /* Space between projects/experiences */
+    padding: 1rem; /* Padding for better spacing */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for sections */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #35424a;
+    color: #ffffff;
+    position: relative;
+    margin-top: 20px; /* Space above footer */
 }
