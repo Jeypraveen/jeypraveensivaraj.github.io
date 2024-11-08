@@ -8,7 +8,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: #35424a;
+    background-color: #3C3C3C;
     color: #ffffff;
     text-align: center;
     padding: 1.5rem;
@@ -149,7 +149,7 @@ nav {
 .nav-button {
     text-decoration: none;
     padding: 12px 24px;
-    background-color: #4CAF50;
+    background-color:#A0A8B7;
     color: white;
     border-radius: 8px;
     font-size: 16px;
