@@ -86,15 +86,15 @@ p {
 /* Profile photo styling at the top center */
 .profile-photo {
     width: 100%;
-    max-width: 180px;
+    max-width: 250px; /* Increased max-width */
     height: auto;
     border-radius: 12px;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: 2px solid #ddd;
     background-color: #ffffff;
     padding: 3px;
 }
+
 
 /* Additional styling for lists */
 ul {
