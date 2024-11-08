@@ -72,7 +72,7 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Updated styles for centering the profile photo */
+/* Updated styles for centering the profile photo in a curvy box */
 .about-container {
     display: flex; /* Use Flexbox for layout */
     flex-direction: column; /* Stack items vertically */
@@ -83,9 +83,11 @@ p {
 .profile-photo {
     width: 150px; /* Desired width */
     height: 150px; /* Desired height */
-    border-radius: 50%; /* Make it circular */
-    object-fit: cover; /* Ensures the image covers the container */
+    border-radius: 20px; /* Rounded corners for a curvy box look */
+    object-fit: cover; /* Cover the entire area without distortion */
     margin-bottom: 1rem; /* Space below the photo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    border: 2px solid #ddd; /* Optional border */
 }
 
 /* Additional styling for lists */
