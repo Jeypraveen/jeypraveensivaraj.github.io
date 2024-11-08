@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
@@ -11,7 +11,7 @@ header {
     background-color: #35424a;
     color: #ffffff;
     text-align: center;
-    padding: 1.5rem;
+    padding: 2rem 1rem;
 }
 
 header h1 {
@@ -22,6 +22,7 @@ header h1 {
 /* Navigation bar styling */
 nav {
     background-color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -33,20 +34,20 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     display: block;
     transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
     background-color: #666;
-    border-radius: 5px;
 }
 
 /* Section styling */
@@ -55,7 +56,7 @@ section {
     max-width: 800px;
     margin: 20px auto;
     background: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
@@ -75,16 +76,18 @@ p {
 /* About section styling */
 .about-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .profile-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover; /* Ensures the photo fits within the circle */
-    margin-right: 2rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
 }
 
 /* List styling for skills */
@@ -119,4 +122,54 @@ footer {
     color: #ffffff;
     position: relative;
     margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        padding: 0.5rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
