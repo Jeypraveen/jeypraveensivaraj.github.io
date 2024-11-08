@@ -8,20 +8,29 @@ body {
 
 /* Header styling */
 header {
-    background-color: #35424a;
+    background-color: #2c3e50;
     color: #ffffff;
     text-align: center;
-    padding: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #bdc3c7;
 }
 
 /* Navigation bar styling */
 nav {
-    background-color: #444;
+    background-color: #2c3e50;
+    padding: 1rem 0;
 }
 
 nav ul {
@@ -33,20 +42,22 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #ffffff;
+    background-color: #3498db;
+    padding: 0.8rem 1.2rem;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
-    transition: background-color 0.3s, color 0.3s;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 nav ul li a:hover {
-    background-color: #666;
-    border-radius: 5px;
+    background-color: #2980b9;
+    transform: translateY(-2px);
 }
 
 /* Section styling */
@@ -60,7 +71,7 @@ section {
 }
 
 h2 {
-    color: #35424a;
+    color: #2c3e50;
     margin-bottom: 1rem;
     font-size: 2rem;
     border-bottom: 2px solid #f4f4f9;
@@ -71,17 +82,6 @@ p {
     line-height: 1.6;
     margin-bottom: 1rem;
 }
-
-/* Updated styles for centering the profile photo at the top */
-/* Update for about-container to stack photo at the top */
-.about-container {
-    display: flex;
-    flex-direction: column; /* Stack vertically */
-    align-items: center; /* Center horizontally */
-    margin-bottom: 20px;   
-}
-
-
 
 /* Profile photo styling at the top center */
 .profile-photo {
@@ -96,17 +96,7 @@ p {
     padding: 3px;
 }
 
-/* Additional styling for lists */
-ul {
-    padding-left: 20px;
-    margin-bottom: 1rem;
-}
-
-ul li {
-    margin-bottom: 0.5rem;
-}
-
-/* Styling for project and experience sections */
+/* Styling for project, experience, and skills sections */
 .project, .experience, .skills-section {
     margin-bottom: 20px;
     padding: 1rem;
@@ -119,10 +109,29 @@ ul li {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #35424a;
+    background-color: #2c3e50;
     color: #ffffff;
     position: relative;
     margin-top: 20px;
+}
+
+/* Button-like styling for "About Me", "Skills", "Projects", "Experience", "Contact" */
+nav ul li a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
 }
 
 /* Responsive adjustments */
