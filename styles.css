@@ -72,40 +72,49 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Updated styles for centering the profile photo in a curvy box */
+/* Centered profile card styling */
 .about-container {
-    display: flex; /* Use Flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    margin-bottom: 20px; /* Space below the about container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto;
 }
 
+/* Profile photo styling in a rounded rectangle */
 .profile-photo {
-    width: 150px; /* Desired width */
-    height: 150px; /* Desired height */
-    border-radius: 20px; /* Rounded corners for a curvy box look */
-    object-fit: contain; /* Ensures the whole image is visible without cutting */
-    margin-bottom: 1rem; /* Space below the photo */
-    border: 2px solid #ddd; /* Optional border for framing */
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
 }
 
 /* Additional styling for lists */
 ul {
-    padding-left: 20px; /* Indent list items */
-    margin-bottom: 1rem; /* Space below lists */
+    padding-left: 20px;
+    margin-bottom: 1rem;
 }
 
 ul li {
-    margin-bottom: 0.5rem; /* Space between list items */
+    margin-bottom: 0.5rem;
 }
 
 /* Styling for project and experience sections */
 .project, .experience, .skills-section {
-    margin-bottom: 20px; /* Space between projects/experiences */
-    padding: 1rem; /* Padding for better spacing */
-    border: 1px solid #ddd; /* Light border for separation */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #f9f9f9; /* Light background for sections */
+    margin-bottom: 20px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
 /* Footer styling */
@@ -115,20 +124,18 @@ footer {
     background-color: #35424a;
     color: #ffffff;
     position: relative;
-    margin-top: 20px; /* Space above footer */
+    margin-top: 20px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .profile-photo {
-        width: 120px; /* Smaller width for tablets */
-        height: 120px; /* Smaller height for tablets */
+        max-width: 140px;
     }
 }
 
 @media (max-width: 480px) {
     .profile-photo {
-        width: 100px; /* Even smaller width for mobile */
-        height: 100px; /* Even smaller height for mobile */
+        max-width: 100px;
     }
 }
