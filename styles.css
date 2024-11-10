@@ -86,7 +86,7 @@ p {
 /* Profile photo styling at the top center */
 .profile-photo {
     width: 100%;
-    max-width: 250px; /* Increased max-width */
+    max-width: 500px; /* Increased max-width */
     height: auto;
     border-radius: 12px;
     object-fit: cover;
