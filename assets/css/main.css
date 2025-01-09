@@ -1179,6 +1179,10 @@ section,
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  word-wrap: break-word; /* Ensures long text wraps within the container */
+  overflow-wrap: break-word; /* Ensures text breaks within the box */
+  white-space: normal; /* Ensures text doesn't overflow the container */
+
 }
 
 .contact .info-item:hover i {
