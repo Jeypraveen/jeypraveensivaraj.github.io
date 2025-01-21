@@ -656,7 +656,10 @@ section,
   color: var(--accent-color);
   line-height: 0;
 }
-
+.about {
+  background-color: #f4fafd
+  ; /* Sky blue background */
+  padding: 50px 0;}
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
@@ -1141,6 +1144,11 @@ section,
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
+}
+.contact{
+  background-color: #ffffff; /* Sky blue background */
+  padding: 50px 0;
+  
 }
 
 @media (max-width: 575px) {
