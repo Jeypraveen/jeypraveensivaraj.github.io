@@ -696,6 +696,7 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -728,6 +729,15 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+}
+.skills h4 {
+   /* Adjust this value for desired spacing */
+  margin-bottom: -40px;
+}
+
+.skills h4.subsection-title {
+  margin-bottom:-40px;
+  margin-top: 50px; /* Adjust only for these subsection titles */
 }
 
 /*--------------------------------------------------------------
